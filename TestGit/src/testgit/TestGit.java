@@ -16,12 +16,15 @@ public class TestGit {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Olá Git!!");
         Scanner input = new Scanner(System.in);
         
         int num1;
         int num2;
         int soma;
+        char nome;
+        
+       
+        System.out.println("Olá rick, bem vindo ao Git");
         
         System.out.println("Digite um número: ");
         num1 = input.nextInt();
