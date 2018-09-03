@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package testgit;
-
+import java.util.Scanner;
 /**
  *
  * @author Rick
@@ -17,6 +17,19 @@ public class TestGit {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Olá Git!!");
+        Scanner input = new Scanner(System.in);
+        
+        int num1;
+        int num2;
+        int soma;
+        
+        System.out.println("Digite um número: ");
+        num1 = input.nextInt();
+        System.out.println("digite outro número");
+        num2 = input.nextInt();
+        soma = num1 + num2;
+        System.out.printf("A soma é %d\n", soma);
+        
     }
     
 }
